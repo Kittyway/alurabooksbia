@@ -1,0 +1,105 @@
+
+.carrossel__titulo {
+    color: var(--laranja);
+    background-color: var(--branco);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: 700;
+    padding: 1em 0  0.5em 0;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+.card__descrição {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.card__botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.botões {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: var(--branco);
+    /*no 0.25 ali, é onde deixa aquela partezinha "esfumada" nas borda.*/
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin: 1em;
+    padding: 1em;
+}
+
+.descrição__titulo {
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.descrição__titulo-livro {
+    color: var(--azul);
+    font-size: 20px;
+    margin: 0.5em 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.descrição__texto {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.botões_item {
+    margin: 0 0.5em;
+}
+
+.botões__ancora {
+    background-color: var(--laranja);
+    padding: 1em 2.2em;
+    color: var(--branco);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.botões__ancora:hover{
+    background-color: var(--laranja);
+    color: var(--branco);
+}
+.vendas__titulo {
+    background-color: var(--branco);
+    text-align: center;
+    color: var(--laranja);
+    padding: 1.5em 0 1em 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.titulo_card2{
+    color: var(--laranja);
+    font-size: 18px;
+    font-weight: 700;
+    padding-top: 0.5em;
+}
+
+.autora__nome_card2 {
+    color: var(--azul);
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0.5em 0;
+}
